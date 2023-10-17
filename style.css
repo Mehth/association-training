@@ -1,0 +1,60 @@
+/* création du reset de la page */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+@include media-breakpoint-up(lg) {
+    body {
+      font-size: 1.6rem;
+    }
+  }
+
+/* Typographie responsive */
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+.navbar, .navbar a, .button {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 25px;
+}
+
+/* Contenu principal de la page d'acceuil */
+
+/* Carousel */
+
+.projetsDeveloppement {
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    color: black;
+
+
+
+}
+
+
+
+
+
+
+
+
+

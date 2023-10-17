@@ -3,36 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-
-    <title>SEL - Association de solidarité internationale </title>
+    <title> SEL - Association de solidarité internationale </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-light-subtle  ">
-        <a class="navbar-brand"> SEL </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> 
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse">
-           <ul class="navbar-nav me-auto mb-2 mb-lg-5">
-            <li class="nav-item">Sensibilisation</li>
-            <li class="nav-item">Projets de développement</li>
-            <li class="nav-item">Parrainage</li>
-            <li class="nav-item">Secours d'urgence</li>
-           </ul> 
-        </div>
+    <!-- Barre de navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light-subtle">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">SEL FRANCE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-auto">
+                    <li class="nav-item">Qui sommes-nous ? </li>
+                    <li class="nav-item">Actualités</li>
+                    <li class="nav-item">Nous rejoindre</li>
+                    <li class="nav-item">Contact</li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
-
+        
 <main>
-    <section> À la une </section>
-    <section> Le parrainage d'enfants </section>
-    <section> Les projets de développement </section>
-    <section> Les secours d'urgence </section>
-    <section> La sensibilisation </section>
+    <section class="bg-primary text-light p-3"> 
+        <div class="container text-center">
+            <div class="row align-item-center">
+                <div class="col badge bg-primary-subtle text-body text-wrap align-item-center p-5" style="width: 24rem;"> 
+            <h3> LES MISSIONS DE L'ASSOCIATION </h3>
+            <br>
+            <p> Le SEL est une association protestante de solidarité internationale qui vise à améliorer les conditions de vie de personnes et de populations en situation de pauvreté dans les pays en développement.</p> 
+            <p>Il agit toujours en partenariat avec des acteurs chrétiens locaux.</p> 
+            <p>Son action se répartit entre le soutien à des projets de développement, le parrainage d’enfants, le secours d’urgence et la sensibilisation de son public aux questions de pauvreté. </p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="bg-warning-subtle text-body p-3">
+        <div class="container">
+           <h3> LES PROJETS DE DEVELOPPEMENT </h3> 
+           <p>Le champ d’intervention pour les Projets de Développement est principalement l’Afrique francophone. Nos partenaires locaux sont dans une position privilégiée pour réaliser des activités de développement appropriées à leur contexte. Le SEL assure un suivi technique et financier, grâce à la générosité de donateurs, en France.</p>
+        </div> 
+
+<!-- Carousel -->
+
+<div id="projetsDeveloppement" class="carousel slide carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#projetsDeveloppement" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#projetsDeveloppement" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#projetsDeveloppement" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/homepage/projets-de-dvp-1.jpeg" class="d-block mx-auto" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/homepage/projet-de-dvp-2.jpeg" class="d-block mx-auto" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/homepage/projets-de-dvp-3.jpeg" class="d-block mx-auto" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#projetsDeveloppement" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projetsDeveloppement" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    </section>
+
+    <section class="bg-light-subtle text-dark p-3">
+        <div class="container">
+            <h3> LE SECOURS D'URGENCE </h3> 
+            <p>Grâce à son réseau de partenaires chrétiens, le SEL est en mesure d’envoyer des
+                fonds dans le monde entier en cas d’urgence (tsunami, guerre…) ou de crise (alimentaire, sanitaire…). Les sommes récoltées pour le Secours d’Urgence sont alors envoyées aux structures locales, afin qu’elles puissent venir en aide aux populations impactées.</p>
+        </div> 
+
+<!-- Second Carousel -->
+        <div id="secoursDurgence" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#secoursDurgence" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#secoursDurgence" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#secoursDurgence" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/homepage/secours-durgence-1.jpeg" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/homepage/secours-durgence-2.jpeg" class="d-block mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/homepage/secours-durgence-3.jpeg" class="d-block mx-auto" alt="">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#secoursDurgence" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#secoursDurgence" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
 </main>
-    <footer></footer>
+    <footer class="bg-primary text-light">
+        <div class="container"> 
+            <h5> NEWSLETTER </h5>
+        
+            <form>
+                <div class="mb-3">
+                    <label for="inputEmail" class="form-label"> Adresse email </label>
+                    <input type="email" class="form-control mb-3" id="inputEmail" aria-describedby="emailNewsletter">
+                </div>
+        </form>
+        </div>
+
+    </footer>
 
     
 </body>
