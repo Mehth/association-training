@@ -16,7 +16,6 @@ body {
     }
   }
 
-/* Typographie responsive */
 
 /* Navbar */
 
@@ -39,8 +38,6 @@ body {
 }
 
 /* Contenu principal de la page d'acceuil */
-
-
 
 p, h3, h6 {
     font-family:'DM Sans', Helvetica, sans-serif;
